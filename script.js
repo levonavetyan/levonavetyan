@@ -26,7 +26,7 @@ recognition.onspeechend = function() {
   recognition.stop();
     setTimeout(function(){
     recognition.start();
-    }, 240);
+    }, 400);
   
 }
 
