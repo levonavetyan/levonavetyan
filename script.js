@@ -18,6 +18,7 @@ document.body.onclick = function() {
 }
 //!!!\\
 recognition.onresult = function(event) {
+	document.body.style.backgroundColor = "red";
   console.log(event.results[event.results.length - 1][0].transcript);
 
 }
